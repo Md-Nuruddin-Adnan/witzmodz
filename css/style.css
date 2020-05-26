@@ -69,12 +69,12 @@ body {
 .site-content.home {
   background: url(../images/background_home.jpg) no-repeat center center/cover;
 }
+.site-content.discord-page,
+.site-content.shop-page,
 .site-content.faq-page {
   background: url(../images/background_shop.jpg) no-repeat center center/cover;
 }
-.site-content.shop-page {
-  background: url(../images/background_shop.jpg) no-repeat center center/cover;
-}
+
 
 .text-shadow {
   text-shadow: 0px 3px 7px rgba(0, 0, 0, 1);
@@ -151,6 +151,7 @@ body {
   padding-left: 1rem;
 }
 .navbar-light .navbar-nav .nav-link {
+  font-size: 20px;
   color: #fff;
   text-shadow: 0px 3px 7px rgba(0, 0, 0, 1);
   -webkit-text-shadow: 0px 3px 7px rgba(0, 0, 0, 1);
@@ -209,8 +210,10 @@ body {
 }
 .faq-content {
   background: rgba(22, 22, 23, .70);
-  min-height: 70vh;
+  min-height: 55vh;
   margin-bottom: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 1);
 }
 .faq-content p {
   font-size: 20px;
@@ -315,6 +318,79 @@ body {
 }
 /* ===//end of shop section === */
 /* ##############//end of shop page ############## */
+
+
+/* ##############//end of discord page ############## */
+/* === discord section start === */
+.discord {
+  padding-bottom: 80px;
+}
+.discord-content {
+  border-radius: 10px;
+  background-color: rgba(22, 22, 23, 0.9);
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 1);
+  padding: 20px;
+  text-align: center;
+}
+.discord-top-link {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #10bded;
+  text-shadow: 3px 0px 7px rgba(16, 189, 237, .8), 0px 3px 7px rgba(0, 0, 0, 1);
+  -webkit-text-shadow: 3px 0px 7px rgba(16, 189, 237, .8), 0px 3px 7px rgba(0, 0, 0, 1);
+  -moz-text-shadow: 3px 0px 7px rgba(16, 189, 237, .8), 0px 3px 7px rgba(0, 0, 0, 1);
+  transition: all 0.2s  linear;
+}
+.discord-top-link:hover {
+  color: #10bded;
+  opacity: 0.9;
+}
+.discord-content p {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: 0px 3px 7px rgba(0, 0, 0, 1);
+  -webkit-text-shadow: 0px 3px 7px rgba(0, 0, 0, 1);
+  -moz-text-shadow: 0px 3px 7px rgba(0, 0, 0, 1);
+}
+.discord-link {
+  border: 2px solid #fff;
+  display: block;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+  transition:  all 0.2s linear;
+  -webkit-transition:  all 0.2s linear;
+  -moz-transition:  all 0.2s linear;
+}
+.discord-link:hover {
+  color: #fff;
+  border: 2px solid #10bded;
+  box-shadow: 0px 0px 10px #10bded;
+  -webkit-box-shadow: 0px 0px 10px #10bded;
+  -moz-box-shadow: 0px 0px 10px #10bded;
+}
+.discord-link i {
+  font-size: 16px;
+}
+.discord-link .online i {
+  color: #00ff00;
+  padding: 0 10px;
+}
+.discord-link .offline i {
+  color: #cd0022;
+  padding: 0 10px;
+}
+
+/* ===//end of discord section === */
+/* ##############//end of discord page ############## */
+
+
+/* ##############//end of ? page ############## */
+/* === ? section start === */
+/* ===//end of ? section === */
+/* ##############//end of ? page ############## */
 
 /* === ? section start === */
 /* ===//end of ? section === */

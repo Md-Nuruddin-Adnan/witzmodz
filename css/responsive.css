@@ -3,6 +3,10 @@
   .faq {
     padding: 15px;
   }
+
+  .discord-content p {
+    font-size: 16px;
+  }
   
 }
 
@@ -32,6 +36,7 @@
     max-width: 90%;
   }
 
+  .discord .container,
   .shop .container,
   .faq {
     max-width: 80%;
