@@ -382,6 +382,9 @@ body {
   color: #cd0022;
   padding: 0 10px;
 }
+.active-status.online {
+  margin-right: 10px;
+}
 
 /* ===//end of discord section === */
 /* ##############//end of discord page ############## */
