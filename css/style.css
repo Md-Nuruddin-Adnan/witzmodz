@@ -146,12 +146,12 @@ body {
   color: #fff;
   text-shadow: 3px 0px 7px rgba(255, 255, 255, .80);
 }
-.navbar-expand-lg .navbar-nav .nav-link {
+.navbar-expand-xl .navbar-nav .nav-link {
   padding-right: 1rem;
   padding-left: 1rem;
 }
 .navbar-light .navbar-nav .nav-link {
-  font-size: 20px;
+  font-size: 19px;
   color: #fff;
   text-shadow: 0px 3px 7px rgba(0, 0, 0, 1);
   -webkit-text-shadow: 0px 3px 7px rgba(0, 0, 0, 1);
@@ -259,6 +259,8 @@ body {
   white-space: nowrap;
   padding: 20px 0 10px 0;
 }
+.shop-item.billion-pack .package-name,
+.shop-item.diamond-pack .package-name,
 .shop-item.platinum-pack .package-name {
   margin-left: -10px;
 }
@@ -273,6 +275,12 @@ body {
 }
 .shop-item .package-name span.platinum {
   color: #407dab;
+}
+.shop-item .package-name span.diamond {
+  color: #00ffff;
+}
+.shop-item .package-name span.billion {
+  color: #a300bf;
 }
 .shop-item .description_inner {
   min-height: 150px;
@@ -298,6 +306,16 @@ body {
   text-shadow: 3px 0px 7px rgba(61, 101, 161, 1);
   -webkit-text-shadow: 3px 0px 7px rgba(61, 101, 161, 1);
   -moz-text-shadow: 3px 0px 7px rgba(61, 101, 161, 1);
+}
+.shop-item.diamond-pack .price {
+  text-shadow: 3px 0px 7px rgba(0, 255, 255, 1);
+  -webkit-text-shadow: 3px 0px 7px rgba(0, 255, 255, 1);
+  -moz-text-shadow: 3px 0px 7px rgba(0, 255, 255, 1);
+}
+.shop-item.billion-pack .price {
+  text-shadow: 3px 0px 7px rgba(163, 0, 191, 1);
+  -webkit-text-shadow: 3px 163px 7px rgba(163, 0, 191, 1);
+  -moz-text-shadow: 3px 0px 7px rgba(163, 0, 191, 1);
 }
 .shop-item .buy-btn {
   background: #ff9d00;
@@ -382,7 +400,7 @@ body {
   color: #cd0022;
   padding: 0 10px;
 }
-.active-status.online {
+.active-status.online{
   margin-right: 10px;
 }
 
